@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+
+    height: 100vh;
+    width: 100vw;
+    background-image: url(nature-calm-sea-under-clear-blue-sky-during-daytime-blue-blue-image.jpg);
+    background-size: contain;
+display: flex;
+justify-content: center;
+box-sizing: border-box;
+align-items: center;
+
+    
+}
+
+.container{
+    background-color: rgb(184, 228, 112);
+    height: 100%;
+    height: 450px;
+    width: 300px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.upper{
+
+    border-radius: 50px;
+    height: 40%;
+}
+
+.lower{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.details1{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.details2{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button{
+    background-color: rgb(58, 58, 155);
+    border-radius: 5px;
+    margin-top: 50px;
+    height: 20px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
